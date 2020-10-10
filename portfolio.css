@@ -36,15 +36,16 @@ p {
     border: solid;
     margin: 80px;
     background-color: white;
-    width: 60%;
+    width: 40%;
     height:80%;
+    
 
 
 }
 
-#background {
-    background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png);
-    
 
+.list-unstyled {
+
+    margin-left: 5%;
 
 }

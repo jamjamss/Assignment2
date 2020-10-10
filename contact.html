@@ -5,31 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Assignment2/stylesheet.css">
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Assignment2/contact.css">
     <title>About Me</title>
 </head>
 
 <body>
 
-    <nav>
-        <header>Nadirah Jama</header>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="../Assignment2/contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Assignment2/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Assignment2/index.html">About</a>
-            </li>
-        </ul>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nadirah Jama</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Assignment2/contact.html">Contact <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Assignment2/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Assignment2/index.html">About</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
+    <div class="background">
+        <div class="row" id="borders">
+            <div class="col-9">
+                <h1>Contact</h1>
+                <hr>
+
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                    </div>
+
+                    <div class="form-group2">
+                        <label for="formGroupExampleInput2">Message</label>
+                        <input type="text" class="form-control" rows="5" id="formGroupExampleInput2" placeholder="Message">
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" type="submit">Submit </button>
+                </form>
+
+                <br>
 
 
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
