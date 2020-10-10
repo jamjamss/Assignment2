@@ -1,0 +1,50 @@
+
+body {
+    margin-top: 20px;
+    margin: 20px;   
+    background-image: url(https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg);
+    
+
+}
+
+header {
+    float: left;
+    inline-size: auto;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+nav {
+
+    border: solid;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+img {
+    float: left;
+    width: 100%;
+  
+}
+
+p {
+    margin: 20px;
+    float: left;
+    padding-right: auto;
+    text-align: start;
+}
+
+#borders {
+    border: solid;
+    margin: 80px;
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+
+}
+
+#background {
+    background-image: url(https://meshdesignstudio.com/wp-content/uploads/2018/02/mesh-background-portfolio-lglines.jpg);
+    );
+}
